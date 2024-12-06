@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+}
+
+#verde{
+    color: #13e700;
+}
+#blanco{
+    color: #FFFFFF;
+}
+#rojo{
+    color: #FF0000;
+}
+.nav{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+}
+.imagen{
+    position: relative;
+}
+#ab{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 24px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-bar li{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #F3F3F3;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.font{
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 40px 20px;
+}
+#TituloPodio{
+    color: #FC200C;
+    font-size: 24px;
+}
+.derecho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 300px;
+}
+.logoBottom{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-barB{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-barB li{
+    list-style: none;
+    font-size: 16px;
+    color: #F3F3F3;
+    padding: 5px 0px;
+}
